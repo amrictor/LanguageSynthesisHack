@@ -27,7 +27,6 @@ public class API {
 			e.printStackTrace();
 			return null;
 		}
-		System.out.println(response.getBody().getObject());
 		return response.getBody().getObject();
 	}
 	
